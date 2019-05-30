@@ -57,9 +57,9 @@ Class Bom {
         $send = $this->sendC($url, null, $data);
         // echo $send;
         if (preg_match('/otp_attempt_left/', $send)) {
-                print('OTP berhasil Dikirim!<br>');
+                print('Sukses!');
             } else {
-                print('OTP Gagal Dikirim!<br>');
+                print('Gagal');
             }
     }
 
